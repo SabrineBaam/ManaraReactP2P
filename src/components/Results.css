@@ -1,0 +1,47 @@
+.results-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top:5px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .results-heading {
+    text-align: center;
+  }
+  
+  .results-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .results-item {
+    margin-bottom: 10px;
+  }
+  .results-score {
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  .results-score.green {
+    color: green;
+  }
+  
+  .results-score.red {
+    color: red;
+  }
+  .results-item.correct {
+    color: green;
+  }
+  
+  .results-item.incorrect {
+    color: red;
+  }
